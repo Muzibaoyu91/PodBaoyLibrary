@@ -1,0 +1,7 @@
+use_frameworks!
+target 'PodBaoyLibrary_Tests' do
+  pod 'PodBaoyLibrary', :path => '../'
+  
+  pod 'Specta'
+  pod 'Expecta'
+end
